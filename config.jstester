@@ -1,0 +1,16 @@
+link_test_path:overview.html
+link_test_path:seleniumtest.py
+link_test_path:js
+
+executable:seleniumtest.py
+interpreter:/users/dgalda/.local/python2.6.current/bin/python
+
+# Naming scheme to use for files for stdin,stdout and stderr
+filename_convention_scheme:standard
+
+# Expanded name to use for application
+full_name:Javascript testter
+
+[collate_file]
+before_action:f1.txt
+after_action:f2.txt
