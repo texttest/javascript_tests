@@ -1,3 +1,13 @@
+executable:${TEXTTEST_ROOT}/seleniumtest.py
+interpreter:/usr/local/tt-env/python2.6.current/bin/python
+
+config_module:carmenqueuesystem
+
+default_major_release:none
+default_architecture:none
+
+queue_system_resource:osversion=RHEL5
+
 link_test_path:overview.html
 link_test_path:${TEXTTEST_CHECKOUT}/lib/default/batch/testoverview_javascript
 
@@ -5,9 +15,6 @@ link_test_path:${TEXTTEST_CHECKOUT}/lib/default/batch/testoverview_javascript
 default:~/work/master/Testing/TextTest
 tt_nightjob:/carm/proj/texttest/release/current
 [end]
-
-executable:${TEXTTEST_ROOT}/seleniumtest.py
-interpreter:/usr/local/tt-env/python2.6.current/bin/python
 
 # Naming scheme to use for files for stdin,stdout and stderr
 filename_convention_scheme:standard
