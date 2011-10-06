@@ -1,5 +1,7 @@
 link_test_path:overview.html
-link_test_path:js
+link_test_path:${TEXTTEST_CHECKOUT}/lib/default/batch/testoverview_javascript
+
+checkout_location:~/work/master/Testing/TextTest
 
 executable:${TEXTTEST_ROOT}/seleniumtest.py
 interpreter:/users/geoff/.local/python2.6.current/bin/python
@@ -8,7 +10,7 @@ interpreter:/users/geoff/.local/python2.6.current/bin/python
 filename_convention_scheme:standard
 
 # Expanded name to use for application
-full_name:Javascript testter
+full_name:TextTest Javascript 
 
 use_case_record_mode:GUI
 
