@@ -7,7 +7,7 @@ tt_nightjob:/carm/proj/texttest/release/current
 [end]
 
 executable:${TEXTTEST_ROOT}/seleniumtest.py
-interpreter:/users/geoff/.local/python2.6.current/bin/python
+interpreter:/usr/local/tt-env/python2.6.current/bin/python
 
 # Naming scheme to use for files for stdin,stdout and stderr
 filename_convention_scheme:standard
