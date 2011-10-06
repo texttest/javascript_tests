@@ -1,7 +1,10 @@
 link_test_path:overview.html
 link_test_path:${TEXTTEST_CHECKOUT}/lib/default/batch/testoverview_javascript
 
-checkout_location:~/work/master/Testing/TextTest
+[checkout_location]
+default:~/work/master/Testing/TextTest
+tt_nightjob:/carm/proj/texttest/release/current
+[end]
 
 executable:${TEXTTEST_ROOT}/seleniumtest.py
 interpreter:/users/geoff/.local/python2.6.current/bin/python
