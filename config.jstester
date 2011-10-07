@@ -26,10 +26,6 @@ use_case_record_mode:GUI
 
 use_case_recorder:none
 
-[collate_file]
-before_action:f1.txt
-after_action:f2.txt
-
 [batch_recipients]
 tt_nightjob:carmen.testtool_tests
 
