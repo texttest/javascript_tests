@@ -4,14 +4,10 @@ Summary 4 tests: 4 succeeded 4 tests: 4 succeeded 4 tests: 4 succeeded 4 tests: 
 normal.changed
 Test Rel1.2
 Summary 4 tests: 1 succeeded 1 internal errors 1 FAILED 1 unrunnable
-BothDiff Error text portmoller
-OutDiff output different portmoller
 Success read error
 normal.changed.alternative
 Test Rel1.2
 Summary 4 tests: 1 succeeded 1 internal errors 1 FAILED 1 unrunnable
-BothDiff Other error text portmoller
-OutDiff output different portmoller
 Success read error
-6 tests selected
+2 tests selected
 Reset

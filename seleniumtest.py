@@ -20,10 +20,13 @@ try:
 
     driver.get("file://" + filename)
     
-    for line in sys.stdin:
-        if len(line.strip()) > 0:
-            element1 = driver.find_element_by_id(line.strip())
-            element1.click()
+    for unstrippedLine in sys.stdin:
+        line = unstrippedLine.strip()
+        if len(line) > 0:
+            elementId = line.split(':')[0]
+            action = line.split(':')[1]
+            element = driver.find_element_by_id(elementId)
+            eval("element." + action)
 
     time.sleep(1)
     writeTableLines()

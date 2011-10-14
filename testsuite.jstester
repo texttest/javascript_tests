@@ -1,2 +1,8 @@
 filter_green
 filter_red
+
+# Testing text filter
+filter_textfilter
+
+# Testing filter reset
+filter_reset
