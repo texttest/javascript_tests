@@ -1,8 +1,16 @@
 filter_green
 filter_red
 
+# select only the red tests by ctrl-clicking
+# Commented this test due to Selenium bug
+# http://code.google.com/p/selenium/issues/detail?id=1427
+# ctrl_click_red
+
 # Testing text filter
 filter_textfilter
+
+# Testing text filter with regexp
+regexp
 
 # Testing filter reset
 filter_reset
