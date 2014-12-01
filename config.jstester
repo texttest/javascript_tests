@@ -6,10 +6,10 @@ config_module:carmenqueuesystem
 default_major_release:none
 default_architecture:none
 
-queue_system_resource:osversion=RHEL5
+queue_system_resource:osversion=RHEL6
 
-link_test_path:overview.html
-link_test_path:${TEXTTEST_CHECKOUT}/lib/default/batch/testoverview_javascript
+copy_test_path:overview.html
+copy_test_path:${TEXTTEST_CHECKOUT}/texttestlib/default/batch/testoverview_javascript
 
 [checkout_location]
 default:~/work/master/Testing/TextTest
