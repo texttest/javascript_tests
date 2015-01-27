@@ -1,19 +1,25 @@
 executable:${TEXTTEST_ROOT}/seleniumtest.py
-interpreter:/usr/local/tt-env/python2.6.current/bin/python
 
-config_module:carmenqueuesystem
+# Mechanism for keeping site-specific setup separate
+extra_search_directory:site
+extra_search_directory:default_site
 
-default_major_release:none
-default_architecture:none
+# Copy in the javascript source also
+extra_search_directory:${TEXTTEST_CHECKOUT}/texttestlib/default/batch
 
-queue_system_resource:osversion=RHEL6
+import_config_file:site_configfile
 
+link_test_path:usecase.py
 copy_test_path:overview.html
-copy_test_path:${TEXTTEST_CHECKOUT}/texttestlib/default/batch/testoverview_javascript
+copy_test_path_merge:testoverview_javascript
 
-[checkout_location]
-default:~/work/master/Testing/TextTest
-tt_nightjob:/carm/proj/texttest/release/current
+[collate_file]
+commentlog:testoverview_javascript/comments.log
+[end]
+
+[run_dependent_text]
+*:[0-9]* [A-Z][a-z][a-z] 20[1-9][0-9] [0-9][0-9]:[0-9][0-9]{REPLACE <date and time>}
+commentlog:^[0-9]*{REPLACE <unix time>}
 [end]
 
 # Naming scheme to use for files for stdin,stdout and stderr
@@ -25,13 +31,3 @@ full_name:TextTest Javascript
 use_case_record_mode:GUI
 
 use_case_recorder:none
-
-[batch_recipients]
-tt_nightjob:carmen.testtool_tests
-
-[batch_result_repository]
-tt_nightjob:/carm/proj/texttest/html/Jeppesen/TestStateRepository
-
-[historical_report_location]
-tt_nightjob:/carm/documents/Development/Texttest/Texttest/TestResults/
-[end]

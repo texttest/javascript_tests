@@ -1,12 +1,32 @@
+Test results for HELLO - version normal
+changed changed.alternative
+Last six runs
+Jan2006
 normal
-Test 21Jan2006 Rel1.1 23Jan2006 24Jan2006 25Jan2006 Rel1.2
+
+Test 21Jan2006
+All (0)
+Rel1.1
+All (0)
+23Jan2006
+All (0)
+24Jan2006
+All (0)
+25Jan2006
+All (0)
+Rel1.2
+All (0)
 Summary 4 tests: 4 succeeded 4 tests: 4 succeeded 4 tests: 4 succeeded 4 tests: 4 succeeded 3 tests: 2 succeeded 1 FAILED 4 tests: 4 succeeded
 normal.changed
+
 Test Rel1.2
+All (0)
 Summary 4 tests: 1 succeeded 1 internal errors 1 FAILED 1 unrunnable
 Success read error
 normal.changed.alternative
+
 Test Rel1.2
+All (0)
 Summary 4 tests: 1 succeeded 1 internal errors 1 FAILED 1 unrunnable
 Success read error
 2 tests selected

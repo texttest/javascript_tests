@@ -14,11 +14,15 @@ body,td {color: #000000;font-size: 11px;font-family: Helvetica;} th {color: #000
 <SCRIPT LANGUAGE="JavaScript"><!--
 var Colors = [ '#CEEFBD', '#ff3118', '#FF9900', '#FFC6A5', '#FF99CC', '#DDDDDD', '#8B1A1A' ];
 var TEST_ROW_HEADER_COLOR =  '#FFFFCC'      // yellow
+var CommentServer = "testoverview_javascript/comment.php";
+var CommentHtml = "testoverview_javascript/comment.html";
 //-->
 </SCRIPT>
 <SCRIPT LANGUAGE="JavaScript" SRC="testoverview_javascript/jquery.js">
 </SCRIPT>
 <SCRIPT LANGUAGE="JavaScript" SRC="testoverview_javascript/filter.js">
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="testoverview_javascript/comment.js">
 </SCRIPT>
 </HEAD>
 <BODY>
@@ -64,10 +68,10 @@ var TEST_ROW_HEADER_COLOR =  '#FFFFCC'      // yellow
 </TD></TR>
 <TR><TD bgcolor="#FFFFCC" title="Test where both output and errors differ"><A NAME="normalBothDiff"></A>
 BothDiff
-</TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok after 7 reruns placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#DDDDDD"><FONT color="#000000">N/A</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD></TR>
+</TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok after 7 reruns placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#DDDDDD" id="firstMissing"><FONT color="#000000">N/A</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD></TR>
 <TR><TD bgcolor="#FFFFCC" title="Test with only output differences"><A NAME="normalOutDiff"></A>
 OutDiff
-</TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#FF3118"><A HREF="test_normal_25Jan2006.html#normalOutDiff" title="'OutDiff' failure for 25Jan2006"><FONT color="#000000">output different portmoller</FONT></A></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD></TR>
+</TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#FF3118" id="firstError"><A HREF="test_normal_25Jan2006.html#normalOutDiff" title="'OutDiff' failure for 25Jan2006"><FONT color="#000000">output different portmoller</FONT></A></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD></TR>
 <TR><TD bgcolor="#FFFFCC" title="Test that works"><A NAME="normalSuccess"></A>
 Success
 </TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD><TD bgcolor="#CEEFBD"><FONT color="#000000">ok placerville</FONT></TD></TR>

@@ -1,0 +1,3 @@
+# HTTP Equivalent to setting for "default_texttest_local_tmp" in site_configfile
+#TEXTTEST_LOCAL_TMP_URL:http://url.for.default.texttest.tmp
+

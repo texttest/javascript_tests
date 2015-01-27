@@ -2,8 +2,7 @@ filter_green
 filter_red
 
 # select only the red tests by ctrl-clicking
-# Commented this test due to Selenium bug
-# http://code.google.com/p/selenium/issues/detail?id=1427
+# 
 ctrl_click_red
 
 # Testing text filter
@@ -14,3 +13,7 @@ regexp
 
 # Testing filter reset
 filter_reset
+write_comment
+
+# Copy of write_comment
+view_all_links

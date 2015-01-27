@@ -1,4 +1,32 @@
-Before Reset:
+25Jan2006
+Wednesday
+General comments
+A general comment!
+By The Scrum Master, 26 Jan 2015 12:19
+ x 
+ ... 
+Comments on tests
+Why is this missing?
+-- By The Tests, 21 Jan 2015 11:28
+
+How would I know?
+By The Scrum Master, 26 Jan 2015 12:19
+ x 
+ ... 
+Add comment
+2006-01-24
+Tuesday
+Add comment
+2006-01-23
+Monday
+Add comment
+2006-01-22
+Sunday
+Add comment
+2006-01-21
+Saturday
+Add comment
+Main window again:
 Test results for HELLO - version normal
 changed changed.alternative
 Last six runs
@@ -14,46 +42,13 @@ All (0)
 24Jan2006
 All (0)
 25Jan2006
-All (0)
+All (2)
 Rel1.2
 All (0)
 Summary 4 tests: 4 succeeded 4 tests: 4 succeeded 4 tests: 4 succeeded 4 tests: 4 succeeded 3 tests: 2 succeeded 1 FAILED 4 tests: 4 succeeded
-normal.changed
-
-Test Rel1.2
-All (0)
-Summary 4 tests: 1 succeeded 1 internal errors 1 FAILED 1 unrunnable
-Success read error
-normal.changed.alternative
-
-Test Rel1.2
-All (0)
-Summary 4 tests: 1 succeeded 1 internal errors 1 FAILED 1 unrunnable
-Success read error
-2 tests selected
-Reset
---------------------------------------------------
-After Reset:
-Test results for HELLO - version normal
-changed changed.alternative
-Last six runs
-Jan2006
-normal
-
-Test 21Jan2006
-All (0)
-Rel1.1
-All (0)
-23Jan2006
-All (0)
-24Jan2006
-All (0)
-25Jan2006
-All (0)
-Rel1.2
-All (0)
-Summary 4 tests: 4 succeeded 4 tests: 4 succeeded 4 tests: 4 succeeded 4 tests: 4 succeeded 3 tests: 2 succeeded 1 FAILED 4 tests: 4 succeeded
-BothDiff ok after 7 reruns placerville ok placerville ok placerville ok placerville N/A ok placerville
+BothDiff ok after 7 reruns placerville ok placerville ok placerville ok placerville N/A
+2
+ok placerville
 OutDiff ok placerville ok placerville ok placerville ok placerville output different portmoller ok placerville
 Success ok placerville ok placerville ok placerville ok placerville ok placerville ok placerville
 suite OutDiff2 ok placerville ok placerville ok placerville ok placerville ok placerville ok placerville
@@ -77,3 +72,58 @@ Success read error
 suite OutDiff2 ok abbeville
 12 tests selected
 Reset
+Why is this missing?
+-- By The Tests, 21 Jan 2015 11:28
+
+How would I know?
+By The Scrum Master, 26 Jan 2015 12:19
+Test results for HELLO - version normal
+changed changed.alternative
+Last six runs
+Jan2006
+normal
+
+Test 21Jan2006
+All (0)
+Rel1.1
+All (0)
+23Jan2006
+All (0)
+24Jan2006
+All (0)
+25Jan2006
+All (2)
+Rel1.2
+All (0)
+Summary 4 tests: 4 succeeded 4 tests: 4 succeeded 4 tests: 4 succeeded 4 tests: 4 succeeded 3 tests: 2 succeeded 1 FAILED 4 tests: 4 succeeded
+BothDiff ok after 7 reruns placerville ok placerville ok placerville ok placerville N/A
+2
+ok placerville
+OutDiff ok placerville ok placerville ok placerville ok placerville output different portmoller ok placerville
+Success ok placerville ok placerville ok placerville ok placerville ok placerville ok placerville
+suite OutDiff2 ok placerville ok placerville ok placerville ok placerville ok placerville ok placerville
+normal.changed
+
+Test Rel1.2
+All (0)
+Summary 4 tests: 1 succeeded 1 internal errors 1 FAILED 1 unrunnable
+BothDiff Error text portmoller
+OutDiff output different portmoller
+Success read error
+suite OutDiff2 ok abbeville
+normal.changed.alternative
+
+Test Rel1.2
+All (0)
+Summary 4 tests: 1 succeeded 1 internal errors 1 FAILED 1 unrunnable
+BothDiff Other error text portmoller
+OutDiff output different portmoller
+Success read error
+suite OutDiff2 ok abbeville
+12 tests selected
+Reset
+Why is this missing?
+-- By The Tests, 21 Jan 2015 11:28
+
+How would I know?
+By The Scrum Master, 26 Jan 2015 12:19

@@ -1,3 +1,0 @@
-color1:click()
-textfilter:send_keys("success")
-reset:click()
